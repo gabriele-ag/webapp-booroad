@@ -23,9 +23,13 @@ export default function Home() {
                     </ul>
                   </div>
                   <div className="card-footer text-center">
-                    Coordinatore: <br /> {curTrip.Nome_Coordinatore} <br/>
-                    <button className="btn btn-danger my-2">Più dettagli</button>
+                    Coordinatore: <br /> {curTrip.Nome_Coordinatore} <br />
+                    <button className="btn btn-danger my-2">
+                      <Link to={`/singletravel/${curTrip.id}`}>maggiori dettagli</Link>
+                    </button>
                   </div>
+                </div>
+                <div>
                 </div>
               </div>
             ))}
