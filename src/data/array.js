@@ -1,7 +1,7 @@
 const viaggi = [
   {
     id: "V001",
-    Immagine: "https://example.com/roma.jpg",
+    Immagine: "https://placehold.co/300x200",
     Destinazione: "Roma, Italia",
     Descrizione: "Tour storico alla scoperta dei monumenti della Roma antica.",
     partenza: "2025-08-15",
@@ -13,22 +13,22 @@ const viaggi = [
         Cognome: "Rossi",
         Email: "giulia.rossi@email.com",
         Telefono: "+39 345 678 9012",
-        Immagine: "https://example.com/giulia.jpg",
-        indirizzo: "Via delle Rose 12, Milano"
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via delle Rose 12, Milano",
       },
       {
         Nome: "Luca",
         Cognome: "Ferrari",
         Email: "luca.ferrari@email.com",
         Telefono: "+39 333 444 5566",
-        Immagine: "https://example.com/luca.jpg",
-        indirizzo: "Via Roma 45, Torino"
-      }
-    ]
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via Roma 45, Torino",
+      },
+    ],
   },
   {
     id: "V002",
-    Immagine: "https://example.com/parigi.jpg",
+    Immagine: "https://placehold.co/300x200",
     Destinazione: "Parigi, Francia",
     Descrizione: "Viaggio romantico tra arte, cultura e gastronomia.",
     partenza: "2025-09-10",
@@ -40,22 +40,22 @@ const viaggi = [
         Cognome: "Conti",
         Email: "elena.conti@email.com",
         Telefono: "+39 392 112 3344",
-        Immagine: "https://example.com/elena.jpg",
-        indirizzo: "Corso Francia 18, Napoli"
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Corso Francia 18, Napoli",
       },
       {
         Nome: "Francesco",
         Cognome: "Bianchi",
         Email: "francesco.bianchi@email.com",
         Telefono: "+39 366 789 1234",
-        Immagine: "https://example.com/francesco.jpg",
-        indirizzo: "Via Verdi 23, Firenze"
-      }
-    ]
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via Verdi 23, Firenze",
+      },
+    ],
   },
   {
     id: "V003",
-    Immagine: "https://example.com/londra.jpg",
+    Immagine: "https://placehold.co/300x200",
     Destinazione: "Londra, Regno Unito",
     Descrizione: "Esplora la capitale britannica tra musei, pub e storia.",
     partenza: "2025-10-01",
@@ -67,14 +67,14 @@ const viaggi = [
         Cognome: "Russo",
         Email: "matteo.russo@email.com",
         Telefono: "+39 348 123 4567",
-        Immagine: "https://example.com/matteo.jpg",
-        indirizzo: "Via Garibaldi 8, Bologna"
-      }
-    ]
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via Garibaldi 8, Bologna",
+      },
+    ],
   },
   {
     id: "V004",
-    Immagine: "https://example.com/berlino.jpg",
+    Immagine: "https://placehold.co/300x200",
     Destinazione: "Berlino, Germania",
     Descrizione: "Città moderna ricca di storia, cultura e innovazione.",
     partenza: "2025-07-20",
@@ -86,14 +86,14 @@ const viaggi = [
         Cognome: "Esposito",
         Email: "sara.esposito@email.com",
         Telefono: "+39 349 987 6543",
-        Immagine: "https://example.com/sara.jpg",
-        indirizzo: "Via Dante 14, Genova"
-      }
-    ]
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via Dante 14, Genova",
+      },
+    ],
   },
   {
     id: "V005",
-    Immagine: "https://example.com/amsterdam.jpg",
+    Immagine: "https://placehold.co/300x200",
     Destinazione: "Amsterdam, Paesi Bassi",
     Descrizione: "Canali pittoreschi, biciclette e arte ovunque.",
     partenza: "2025-09-05",
@@ -105,14 +105,14 @@ const viaggi = [
         Cognome: "Costa",
         Email: "andrea.costa@email.com",
         Telefono: "+39 350 444 3322",
-        Immagine: "https://example.com/andrea.jpg",
-        indirizzo: "Viale Europa 99, Venezia"
-      }
-    ]
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Viale Europa 99, Venezia",
+      },
+    ],
   },
   {
     id: "V006",
-    Immagine: "https://example.com/madrid.jpg",
+    Immagine: "https://placehold.co/300x200",
     Destinazione: "Madrid, Spagna",
     Descrizione: "Tapas, arte e passione nella capitale spagnola.",
     partenza: "2025-08-01",
@@ -124,14 +124,14 @@ const viaggi = [
         Cognome: "Marino",
         Email: "anna.marino@email.com",
         Telefono: "+39 351 222 3344",
-        Immagine: "https://example.com/anna.jpg",
-        indirizzo: "Via della Libertà 21, Bari"
-      }
-    ]
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via della Libertà 21, Bari",
+      },
+    ],
   },
   {
     id: "V007",
-    Immagine: "https://example.com/dublino.jpg",
+    Immagine: "https://placehold.co/300x200",
     Destinazione: "Dublino, Irlanda",
     Descrizione: "Verde, birra e folklore irlandese.",
     partenza: "2025-10-12",
@@ -143,14 +143,14 @@ const viaggi = [
         Cognome: "Galli",
         Email: "paolo.galli@email.com",
         Telefono: "+39 357 444 1111",
-        Immagine: "https://example.com/paolo.jpg",
-        indirizzo: "Via delle Colline 3, Lecce"
-      }
-    ]
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via delle Colline 3, Lecce",
+      },
+    ],
   },
   {
     id: "V008",
-    Immagine: "https://example.com/newyork.jpg",
+    Immagine: "https://placehold.co/300x200",
     Destinazione: "New York, USA",
     Descrizione: "La città che non dorme mai tra skyline e grattacieli.",
     partenza: "2025-11-01",
@@ -162,22 +162,22 @@ const viaggi = [
         Cognome: "De Luca",
         Email: "giorgia.deluca@email.com",
         Telefono: "+39 347 777 8888",
-        Immagine: "https://example.com/giorgia.jpg",
-        indirizzo: "Via Milano 30, Verona"
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via Milano 30, Verona",
       },
       {
         Nome: "Davide",
         Cognome: "Vitale",
         Email: "davide.vitale@email.com",
         Telefono: "+39 391 666 5555",
-        Immagine: "https://example.com/davide.jpg",
-        indirizzo: "Via Trento 4, Reggio Emilia"
-      }
-    ]
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via Trento 4, Reggio Emilia",
+      },
+    ],
   },
   {
     id: "V009",
-    Immagine: "https://example.com/tokyo.jpg",
+    Immagine: "https://placehold.co/300x200",
     Destinazione: "Tokyo, Giappone",
     Descrizione: "Tradizione e modernità si incontrano nella metropoli asiatica.",
     partenza: "2025-12-01",
@@ -189,14 +189,14 @@ const viaggi = [
         Cognome: "Rinaldi",
         Email: "valentina.rinaldi@email.com",
         Telefono: "+39 392 888 9999",
-        Immagine: "https://example.com/valentina.jpg",
-        indirizzo: "Via Giappone 1, Roma"
-      }
-    ]
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via Giappone 1, Roma",
+      },
+    ],
   },
   {
     id: "V010",
-    Immagine: "https://example.com/cairo.jpg",
+    Immagine: "https://placehold.co/300x200",
     Destinazione: "Il Cairo, Egitto",
     Descrizione: "Misteri antichi e piramidi in un viaggio unico.",
     partenza: "2025-11-15",
@@ -208,11 +208,11 @@ const viaggi = [
         Cognome: "Serra",
         Email: "nicola.serra@email.com",
         Telefono: "+39 393 123 4567",
-        Immagine: "https://example.com/nicola.jpg",
-        indirizzo: "Via delle Piramidi 10, Palermo"
-      }
-    ]
-  }
-]
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via delle Piramidi 10, Palermo",
+      },
+    ],
+  },
+];
 
-export default viaggi
+export default viaggi;
