@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <>
       <main>
-        <section className="container">
+        <section className="container py-5">
+          <h1 className="text-center my-5">Viaggi correnti</h1>
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             {viaggi.map((curTrip) => (
               <div key={curTrip.id} className="col ">
@@ -16,16 +17,16 @@ export default function Home() {
                     <h5 className="card-title text-center">{curTrip.Destinazione}</h5>
                   </div>
                   <div className="card-body">
-                    <p className="card-text">{curTrip.Descrizione}</p>
+                    <p className="card-text text-center">{curTrip.Descrizione}</p>
                     <ul className="list-group list-group-flush text-center">
                       <li className="list-group-item"> Partenza: {curTrip.partenza}</li>
                       <li className="list-group-item">Ritorno: {curTrip.ritorno}</li>
                     </ul>
                   </div>
                   <div className="card-footer text-center">
-                    Coordinatore: <br /> {curTrip.Nome_Coordinatore} <br />
-                    <button className="btn btn-danger my-2">
-                      <Link to={`/singletravel/${curTrip.id}`}>maggiori dettagli</Link>
+                    <h4>Coordinatore:</h4> <br /> {curTrip.Nome_Coordinatore} <br />
+                    <button className="btn bg-warning my-3" >
+                      <Link className="text-decoration-none text-light" to={`/singletravel/${curTrip.id}`}>Maggiori dettagli</Link>
                     </button>
                   </div>
                 </div>

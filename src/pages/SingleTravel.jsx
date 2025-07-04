@@ -22,7 +22,7 @@ const SingleTravel = () => {
 
   return (
     <>
-      <div className="container">
+      
         <div className="d-flex justify-content-center">
           <form className="d-flex my-5" role="search">
             <input
@@ -32,14 +32,18 @@ const SingleTravel = () => {
               aria-label="Search"
               value={search}
               onChange={handleChange} />
-
-
           </form>
+          
           <Link to={`/`} className="btn btn-success my-5">Torna ai Viaggi</Link>
+
         </div>
-        <p className="mb-3">Viaggio corrente</p>
-        <h2 className="mb-5">{viaggio.Destinazione}</h2>
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div className="container">
+       
+
+
+        <p className="mb-3 text-center">Viaggio corrente</p>
+        <h2 className="mb-5 text-center">{viaggio.Destinazione}</h2>
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
           {filtraPartecipanti(viaggio.partecipanti, search).map((curPartecipante, index) => (
             <div className="card mx-3" key={index}>
               <div className="card-body">
@@ -55,6 +59,10 @@ const SingleTravel = () => {
             </div>
           ))}
         </div>
+
+
+
+        
       </div>
 
     </>

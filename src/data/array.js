@@ -1,7 +1,7 @@
 const viaggi = [
   {
-    id: "V001",
-    Immagine: "https://placehold.co/300x200",
+    id: "1",
+    Immagine: "/img/rome-5074421_1920.jpg",
     Destinazione: "Roma, Italia",
     Descrizione: "Tour storico alla scoperta dei monumenti della Roma antica.",
     partenza: "2025-08-15",
@@ -14,7 +14,7 @@ const viaggi = [
         Cognome: "Rossi",
         Email: "giulia.rossi@email.com",
         Telefono: "+39 345 678 9012",
-        Immagine: "https://placehold.co/300x200",
+        Immagine: "/img/attractive-1869761_1920.jpg",
         indirizzo: "Via delle Rose 12, Milano",
       },
       {
@@ -53,10 +53,19 @@ const viaggi = [
         Immagine: "https://placehold.co/300x200",
         indirizzo: "Via Garibaldi 8, Bologna",
       },
+      {
+        id: "1",
+        Nome: "Giulio",
+        Cognome: "Rossi",
+        Email: "giulia.rossi@email.com",
+        Telefono: "+39 345 678 9012",
+        Immagine: "https://placehold.co/300x200",
+        indirizzo: "Via delle Rose 12, Milano",
+      },
     ],
   },
   {
-    id: "V002",
+    id: "2",
     Immagine: "https://placehold.co/300x200",
     Destinazione: "Parigi, Francia",
     Descrizione: "Viaggio romantico tra arte, cultura e gastronomia.",
@@ -121,7 +130,7 @@ const viaggi = [
     ],    
   },
   {
-  id: "V003",
+  id: "3",
   Immagine: "https://placehold.co/300x200",
   Destinazione: "Londra, Regno Unito",
   Descrizione: "Esplora la capitale britannica tra musei, pub e storia.",
@@ -177,7 +186,7 @@ const viaggi = [
   ],
 },
 {
-  id: "V004",
+  id: "4",
   Immagine: "https://placehold.co/300x200",
   Destinazione: "Berlino, Germania",
   Descrizione: "Città moderna ricca di storia, cultura e innovazione.",

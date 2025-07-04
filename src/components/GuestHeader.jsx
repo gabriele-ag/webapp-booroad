@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const GuestHeader = () => {
 
@@ -8,17 +8,17 @@ const GuestHeader = () => {
         url: "/"
     },
      {
-        name: "Prova",
-        url: "/"
+        name: "Aggiungi Viaggio",
+        url: "/aggiungiviaggio"
     },
     ]
 
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-info">
+            <nav className="navbar navbar-expand-lg bg-success-subtle">
                 <div className="container-fluid">
-                    <h1 className="navbar-brand" href="#">Booroad</h1>
+                    <h1 className="navbar-brand fw-bolder" href="#">Booroad</h1>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
