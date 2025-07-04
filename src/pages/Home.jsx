@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <main>
-        <section className="container py-5">
-          <h1 className="text-center my-5">Viaggi correnti</h1>
+        <section className="container py-2">
+          <h1 className="text-center my-4">Viaggi correnti</h1>
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             {viaggi.map((curTrip) => (
               <div key={curTrip.id} className="col ">
